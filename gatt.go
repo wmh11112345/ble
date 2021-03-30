@@ -71,6 +71,13 @@ func AdvertiseIBeaconData(ctx context.Context, b []byte) error {
 	defer untrap(trap(ctx))
 	return defaultDevice.AdvertiseIBeaconData(ctx, b)
 }
+func AdvertiseMfgDataDIY(ctx context.Context, id uint16, b []byte) error {
+	if defaultDevice == nil {
+		return ErrDefaultDevice
+	}
+	defer untrap(trap(ctx))
+	return defaultDevice.AdvertiseMfgData(ctx, id, b)
+}
 
 // AdvertiseIBeacon advertises iBeacon with specified parameters.
 func AdvertiseIBeacon(ctx context.Context, u UUID, major, minor uint16, pwr int8) error {
