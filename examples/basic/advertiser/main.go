@@ -7,11 +7,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/go-ble/ble/linux"
+	"github.com/wmh11112345/ble/linux"
 
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/examples/lib/dev"
-	"github.com/go-ble/ble/linux/hci/cmd"
+	"github.com/wmh11112345/ble"
+	"github.com/wmh11112345/ble/examples/lib/dev"
+	"github.com/wmh11112345/ble/linux/hci/cmd"
 	"github.com/pkg/errors"
 )
 

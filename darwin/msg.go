@@ -1,7 +1,7 @@
 package darwin
 
 import (
-	"github.com/go-ble/ble"
+	"github.com/wmh11112345/ble"
 	"github.com/raff/goble/xpc"
 )
 

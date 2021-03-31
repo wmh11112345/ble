@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux/att"
+	"github.com/wmh11112345/ble"
+	"github.com/wmh11112345/ble/linux/att"
 )
 
 const (
